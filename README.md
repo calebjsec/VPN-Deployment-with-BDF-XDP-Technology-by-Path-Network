@@ -155,6 +155,8 @@ sudo systemctl start pritunl mongod
 sudo systemctl enable pritunl mongod
 ````
 
+## Configuring Priunl
+
 
 
 
