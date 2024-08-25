@@ -7,7 +7,7 @@ This project demonstrates how to deploy a DDoS-protected VPN server utilizing BD
 - [Prerequisites](#prerequisites)
 - [Firewall Configuration](#Firewall-Configuration)
 - [Pritunl Installation Steps](#Pritunl-Installation-Steps)
-- [Configuring Priunl](#setting-up-the-web-panel)
+- [Pritunl Database Setup](#Pritunl-Database-Setup)
 - [Conclusion](#conclusion)
 - [Additional Documentation](#additional-documentation)
 
@@ -164,7 +164,33 @@ sudo systemctl enable pritunl mongod
 ````
 ![Update and Upgrade the System](https://imgur.com/wcrTh6o.png)
 
-## Configuring Priunl
+## Pritunl Database Setup
+
+## 1. Access Pritunl Web Panel
+
+*Open your web browser and navigate to the following URL, replacing 198.251.83.155 with your server's IP address:*
+```
+https://198.251.83.155/
+```
+![Access Pritunl Web Panel](https://imgur.com/20e8rwN.png)
+
+## 2. Generate the Pritunl Setup Key
+*Run the following command on your server*
+````
+sudo pritunl setup-key
+````
+![Generate the Pritunl Setup Key](https://imgur.com/OeuoexN.png)
+
+## 3. Enter the Setup Key in the Web Panel
+
+*Go back to the Pritunl web panel in your browser. When prompted, paste the setup key you copied from the server.*
+
+![Enter the Setup Key in the Web Panel](https://imgur.com/2mEn723.png)
+
+## 4. Generate Default Password
+
+
+
 
 
 
