@@ -9,6 +9,10 @@ This project demonstrates how to deploy a DDoS-protected VPN server utilizing BD
 - [Pritunl Installation Steps](#Pritunl-Installation-Steps)
 - [Pritunl Database Setup](#Pritunl-Database-Setup)
 - [Create VPN Server on Pritunl Panel](#Create-VPN-Server-On-Pritunl-Panel)
+- [Create Organization Pritunl Panel](#Create-Organization-Pritunl-Panel)
+- [Connect the Organization to a VPN Server](Connect-the-Organization-to-a-VPN-Server)
+- [Start VPN Server](#Start-VPN-Server)
+- [Connect Using OpenVPN Client](#Connect-Using-OpenVPN-Client)
 - [Conclusion](#conclusion)
 - [Additional Documentation](#additional-documentation)
 
@@ -251,7 +255,36 @@ Change the port number from the default (443) to 31450.*
 
 ![Create VPN Server on Pritunl Panel](https://imgur.com/MgPh4AZ.png)
 
+## Create Organization Pritunl Panel
 
+## 1. Go to Users Tab
+*On the Pritunl dashboard, click on the "Users" tab in the left-hand menu.*
+
+## 2. Add Organization
+*In the "Users" section, click the "Add Organization" button.*
+
+## 3. Name the Organization:
+
+*In the dialog box that appears, enter a name for your new organization (e.g., "MyOrganization").*
+*Click "Add" to create the organization.*
+
+![Create Organization Pritunl Panel](https://imgur.com/YcA3WId.png)
+
+## Connect the Organization to a VPN Server
+
+## 1. Go to Servers Tab
+*Navigate to the "Servers" tab in the Pritunl panel.*
+
+## 2. Link Organization to Server
+*Find the VPN server you want to link to the organization and click on it.*
+
+*In the server settings, find the "Attach Organization" section.*
+
+*Select the organization you created and click "Attach".*
+
+*Now, the organization is set up and linked to the VPN server. Users within the organization can connect to the VPN server using their respective profiles.*
+
+![Connect the Organization to a VPN Server](https://imgur.com/LmbJI0Y.png)
 
 
 
