@@ -3,7 +3,7 @@
 This project demonstrates how to deploy a DDoS-protected VPN server utilizing BDF/XDP Technology by Path Network on a Linux Ubuntu 20.04 server. The setup includes installing the Pritunl panel, configuring robust DDoS protection using FranTech Stallion, and establishing essential firewall rules to secure network communications.
 
 ## Table of Contents
-- [Introduction](#introduction)
+- [Introduction to BDF/XDP Technology](#Introduction-to-BDF/XDP-Technology)
 - [Prerequisites](#prerequisites)
 - [Firewall Configuration](#Firewall-Configuration)
 - [Pritunl Installation Steps](#Pritunl-Installation-Steps)
@@ -40,6 +40,9 @@ Path Network Integration
 Whitelist the following ports utilizing the FranTech Stallion Panel:
 
 SSH (Port 22): Used for secure remote access to the server.
+<img src="https://imgur.com/Nt6kwoF" height="80%" width="80%" alt="VPN Deployment"/>
+
+
 HTTP (Port 80): Used for serving web content.
 HTTPS (Port 443): Used for secure web traffic.
 OpenVPN UDP (Port 22000): Used for VPN traffic.
