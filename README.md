@@ -71,20 +71,6 @@ Path Network Integration
 
 ![Application Filter](https://imgur.com/qcJ2M1i.png)
 
-
-
-
-HTTP (Port 80): Used for serving web content.
-HTTPS (Port 443): Used for secure web traffic.
-OpenVPN UDP (Port 22000): Used for VPN traffic.
-Whitelisted IP: 217.20.242.107 (Replace with your IP)
-
-Deny All Traffic Except Whitelisted Ports and IPs:
-
-Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.
-Application Filter: Apply an OpenVPN UDP filter to Port 22000 to ensure only legitimate VPN traffic is allowed.
-
-
 ## Pritunl Installation Steps
 
 ### 1. Update and Upgrade the System
