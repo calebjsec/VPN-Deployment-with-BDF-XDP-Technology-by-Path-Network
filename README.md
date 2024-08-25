@@ -227,26 +227,26 @@ Change the port number from the default (443) to 31450.*
 
 ![Change the Default Password & Username](https://imgur.com/IaubtgD.png)
 
-## 1. Create VPN Server on Pritunl Panel
+## Create-VPN-Server-On-Pritunl-Panel
 
 *On the Pritunl dashboard, click the "Add Server" button.*
 
-## 2. Set Server Name
+## 1. Set Server Name
 *In the server configuration window, set a name for your VPN server (e.g., "MyVPNServer").*
 
-## 3. Protocol and Port 
+## 2. Protocol and Port 
 *Under "Protocol", select "UDP". Set the "Port" to 22000.*
 
-## 4. DNS Configuration
+## 3. DNS Configuration
 *Set the "DNS Server" to 1.1.1.1 (Cloudflare DNS).*
 
-## 5. Encryption Cipher
+## 4. Encryption Cipher
 *Under "Encryption", select AES-256-CBC (AES-256 bit encryption).*
 
-## 6. Allow Multiple Devices
+## 5. Allow Multiple Devices
 *Check the box for "Allow Multiple Devices" to enable multiple devices to connect using the same VPN profile.*
 
-## 7. Block Outside DNS
+## 6. Block Outside DNS
 *Check the box for "Block Outside DNS" to ensure that DNS requests are only routed through the VPN.*
 
 ![Create VPN Server on Pritunl Panel](https://imgur.com/MgPh4AZ.png)
