@@ -8,7 +8,7 @@ This project demonstrates how to deploy a DDoS-protected VPN server utilizing BD
 - [Firewall Configuration](#Firewall-Configuration)
 - [Pritunl Installation Steps](#Pritunl-Installation-Steps)
 - [Pritunl Database Setup](#Pritunl-Database-Setup)
-- [Create VPN Server on Pritunl Panel](Create-VPN-Server-On-Pritunl-Panel)
+- [Create VPN Server on Pritunl Panel](#Create-VPN-Server-On-Pritunl-Panel)
 - [Conclusion](#conclusion)
 - [Additional Documentation](#additional-documentation)
 
