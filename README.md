@@ -200,7 +200,16 @@ Username: pritunl
 Password: defaultpassword (or whatever password was provided)*
 ![Log into the Pritunl Web Panel](https://imgur.com/urukpJB.png)
 
+## 6. Change Default Username and Password
 
+**Access the Pritunl Web Console**
+*Open your web browser and navigate to the Pritunl web panel at https://<your-server-ip>.*
+**Log In with Default Credentials**
+Use the default login credentials obtained using the sudo pritunl default-password command.
+
+Change the Default Password
+
+After logging in, go to the Users section from the navigation menu.
 
 
 
