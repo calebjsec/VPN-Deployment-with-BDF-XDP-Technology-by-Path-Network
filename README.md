@@ -69,7 +69,7 @@ Path Network Integration
 
 *Firewall Rules*
 
-![Firewall Rules](https://imgur.com/ErXd4k1)
+![Firewall Rules](https://imgur.com/ErXd4k1.png)
 
 *Application Filter*
 
