@@ -227,7 +227,7 @@ Change the port number from the default (443) to 31450.*
 
 ![Change the Default Password & Username](https://imgur.com/IaubtgD.png)
 
-## Create-VPN-Server-On-Pritunl-Panel
+## Create VPN Server On Pritunl Panel
 
 *On the Pritunl dashboard, click the "Add Server" button.*
 
