@@ -2,7 +2,17 @@
 
 This project demonstrates how to deploy a DDoS-protected VPN server utilizing BDF/XDP Technology by Path Network on a Linux Ubuntu 20.04 server. The setup includes installing the Pritunl panel, configuring robust DDoS protection using FranTech Stallion, and establishing essential firewall rules to secure network communications.
 
-Introduction to BDF/XDP Technology
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Firewall Configuration](#Firewall-Configuration)
+- [Pritunl Installation Steps](#Pritunl-Installation-Steps)
+- [Configuring Priunl](#setting-up-the-web-panel)
+- [Conclusion](#conclusion)
+- [Additional Documentation](#additional-documentation)
+
+## Introduction to BDF/XDP Technology
+
 Overview of BDF/XDP
 BDF (Berkeley Packet Filter) and XDP (eXpress Data Path) are advanced networking technologies that allow for high-performance packet processing at the kernel level. XDP, in particular, enables the server to handle and filter network packets before they reach the traditional networking stack, providing an efficient mechanism to mitigate DDoS attacks and reduce server load.
 
@@ -25,8 +35,23 @@ Path Network Integration
 *Software Requirements*
 - **Operating System:** Ubuntu 20.04 LTS or later.
 
+## Firewall Configuration
 
-## Installation Steps
+Whitelist the following ports utilizing the FranTech Stallion Panel:
+
+SSH (Port 22): Used for secure remote access to the server.
+HTTP (Port 80): Used for serving web content.
+HTTPS (Port 443): Used for secure web traffic.
+OpenVPN UDP (Port 22000): Used for VPN traffic.
+Whitelisted IP: 217.20.242.107 (Replace with your IP)
+
+Deny All Traffic Except Whitelisted Ports and IPs:
+
+Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.
+Application Filter: Apply an OpenVPN UDP filter to Port 22000 to ensure only legitimate VPN traffic is allowed.
+
+
+## Pritunl Installation Steps
 
 ### 1. Update and Upgrade the System
 First, make sure your system is up-to-date.
