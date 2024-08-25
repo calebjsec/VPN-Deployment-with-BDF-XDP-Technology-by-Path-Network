@@ -45,31 +45,31 @@ Path Network Integration
 
 *HTTP (Port 80): Used for serving web content.*
 
-![HTTP (Port 80): Used for serving web content.](https://imgur.com/WLGvg65)
+![HTTP (Port 80): Used for serving web content.](https://imgur.com/WLGvg65.png)
 
 *HTTPS (Port 443): Used for secure web traffic.*
 
-![HTTPS (Port 443): Used for secure web traffic.](https://imgur.com/hUfN4Zl)
+![HTTPS (Port 443): Used for secure web traffic.](https://imgur.com/hUfN4Zl.png)
 
 *OpenVPN UDP (Port 22000): Used for OpenVPN UDP traffic.*
 
-![OpenVPN UDP (Port 22000): Used for OpenVPN UDP traffic.](https://imgur.com/hxda5Bw)
+![OpenVPN UDP (Port 22000): Used for OpenVPN UDP traffic.](https://imgur.com/hxda5Bw.png)
 
 *Deny All Traffic: Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.*
 
-![Deny All Traffic: Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.](https://imgur.com/deNxktg)
+![Deny All Traffic: Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.](https://imgur.com/deNxktg.png)
 
 *Application Filter: Apply an OpenVPN UDP filter to Port 22000 to ensure only legitimate VPN traffic is allowed.*
 
-![Application Filter: Apply an OpenVPN UDP filter to Port 22000 to ensure only legitimate VPN traffic is allowed.](https://imgur.com/njovjwT)
+![Application Filter: Apply an OpenVPN UDP filter to Port 22000 to ensure only legitimate VPN traffic is allowed.](https://imgur.com/njovjwT.png)
 
 *Firewall Rules*
 
-![Firewall Rules](https://imgur.com/MTqNUvK)
+![Firewall Rules](https://imgur.com/MTqNUvK.png)
 
 *Application Filter*
 
-![Application Filter](https://imgur.com/qcJ2M1i)
+![Application Filter](https://imgur.com/qcJ2M1i.png)
 
 
 
