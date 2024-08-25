@@ -43,6 +43,35 @@ Path Network Integration
 
 ![SSH (Port 22): Used for secure remote access to the server.](https://imgur.com/Nt6kwoF.png)
 
+*HTTP (Port 80): Used for serving web content.*
+
+![HTTP (Port 80): Used for serving web content.](https://imgur.com/WLGvg65)
+
+*HTTPS (Port 443): Used for secure web traffic.*
+
+![HTTPS (Port 443): Used for secure web traffic.](https://imgur.com/hUfN4Zl)
+
+*OpenVPN UDP (Port 22000): Used for OpenVPN UDP traffic.*
+
+![OpenVPN UDP (Port 22000): Used for OpenVPN UDP traffic.](https://imgur.com/hxda5Bw)
+
+*Deny All Traffic: Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.*
+
+![Deny All Traffic: Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.](https://imgur.com/deNxktg)
+
+*Application Filter: Apply an OpenVPN UDP filter to Port 22000 to ensure only legitimate VPN traffic is allowed.*
+
+![Application Filter: Apply an OpenVPN UDP filter to Port 22000 to ensure only legitimate VPN traffic is allowed.](https://imgur.com/njovjwT)
+
+*Firewall Rules*
+
+![Firewall Rules](https://imgur.com/MTqNUvK)
+
+*Application Filter*
+
+![Application Filter](https://imgur.com/qcJ2M1i)
+
+
 
 
 HTTP (Port 80): Used for serving web content.
