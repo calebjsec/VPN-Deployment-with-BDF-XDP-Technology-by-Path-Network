@@ -286,7 +286,19 @@ Change the port number from the default (443) to 31450.*
 
 ![Connect the Organization to a VPN Server](https://imgur.com/LmbJI0Y.png)
 
+## Start VPN Server
 
+# 1. Go to the Servers Tab
+*On the Pritunl dashboard, click on the "Servers" tab in the left-hand menu.*
 
+# 2. Locate Your VPN Server
+*Find the VPN server that you want to start from the list of servers.*
+
+# 3. Start the Server
+
+*Click the "Start" button next to the server.*
+*Once clicked, the server will start, and its status will change to "Online."*
+
+![Start VPN Server](https://imgur.com/jgTmTTd.png)
 
 
