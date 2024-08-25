@@ -37,9 +37,10 @@ Path Network Integration
 
 ## Firewall Configuration
 
-Whitelist the following ports utilizing the FranTech Stallion Panel:
+**Whitelist the following ports utilizing the FranTech Stallion Panel**
 
-![SSH Port 22: Used for secure remote access to the server](https://imgur.com/Nt6kwoF.png)
+*SSH (Port 22): Used for secure remote access to the server.*
+![SSH (Port 22)](https://imgur.com/Nt6kwoF.png)
 
 
 
