@@ -83,7 +83,7 @@ Path Network Integration
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt update && sudo apt -y full-upgrade
 ````
-![Update and Upgrade the System](https://imgur.com/wcrTh6o)
+![Update and Upgrade the System](https://imgur.com/wcrTh6o.png)
 
 ## 2. Install Required Dependencies
 
