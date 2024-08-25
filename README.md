@@ -188,6 +188,18 @@ sudo pritunl setup-key
 ![Enter the Setup Key in the Web Panel](https://imgur.com/2mEn723.png)
 
 ## 4. Generate Default Password
+````
+sudo pritunl default-password
+````
+![Generate Default Password](https://imgur.com/RBXZJZM.png)
+## 5. Log into the Pritunl Web Panel
+
+*Go to the Pritunl web panel in your browser at https://your-server-ip/.
+Use the default credentials provided:
+Username: pritunl
+Password: defaultpassword (or whatever password was provided)*
+![Log into the Pritunl Web Panel](https://imgur.com/urukpJB.png)
+
 
 
 
