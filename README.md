@@ -133,7 +133,7 @@ curl -fsSL https://www.mongodb.org/static/pgp/server-6.0.asc | sudo gpg --dearmo
 ````
 curl -fsSL https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pritunl.gpg
 ````
-![Update and Upgrade the System](https://imgur.com/wcrTh6o.png)
+![Import GPG Keys for Package Authentication](https://imgur.com/cOQRMqk.png)
 
 *GPG keys are used to verify that the packages are signed by a trusted source and have not been tampered with. The --dearmor option converts the key to a binary format that APT can use.*
 
@@ -144,10 +144,11 @@ curl -fsSL https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub
 ````
 sudo apt update
 ````
+![Install Pritunl and MongoDB](https://imgur.com/9wiNZfP.png)
 ````
 sudo apt --assume-yes install pritunl mongodb-org
 ````
-![Update and Upgrade the System](https://imgur.com/wcrTh6o.png)
+![Install Pritunl and MongoDB](https://imgur.com/1r3NXoV.png)
 
 *The apt update command refreshes the package lists to include the newly added repositories. The --assume-yes option automatically confirms the installation, ensuring a smooth process.*
 
