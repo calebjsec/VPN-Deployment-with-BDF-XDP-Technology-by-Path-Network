@@ -40,10 +40,12 @@ Path Network Integration
 Whitelist the following ports utilizing the FranTech Stallion Panel:
 
 <p align="center">
-SSH (Port 22): Used for secure remote access to the server. <br/>
-<img src="https://imgur.com/Nt6kwoF" height="80%" width="80%" alt="VPN Deployment"/>
-<br />
-<br />
+SSH (Port 22): Used for secure remote access to the server.
+</p>
+<p align="center">
+    ![VPN Deployment](https://imgur.com/Nt6kwoF.png)
+</p>
+
 
 
 HTTP (Port 80): Used for serving web content.
