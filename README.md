@@ -202,14 +202,29 @@ Password: defaultpassword (or whatever password was provided)*
 
 ## 6. Change Default Username and Password
 
-**Access the Pritunl Web Console**
-*Open your web browser and navigate to the Pritunl web panel at https://<your-server-ip>.*
-**Log In with Default Credentials**
-Use the default login credentials obtained using the sudo pritunl default-password command.
+**Log In to the Pritunl Web Console**
+*Open your web browser and navigate to the Pritunl web panel at https://<your-server-ip>*
+*Log in using the default credentials provided by the sudo pritunl default-password command.*
 
-Change the Default Password
+**Change the Default Password & Username**
 
-After logging in, go to the Users section from the navigation menu.
+*After logging in, navigate to the Settings section by clicking on your username or the settings icon.
+
+*Enter a new username.
+*Enter a new, secure password. Ensure it follows NIST guidelines
+Length: At least 12 characters
+Complexity: Include a mix of upper and lower case letters, numbers, and special characters
+Avoid: Common words or easily guessable patterns
+Example of a strong password: G!9aC7%kB*3vQ^Rz*
+
+**Change the Default Web Console Port to 31450**
+
+*Look for the Web Console settings or a similar option related to server configuration.
+Update the Port Setting
+Find the field labeled Web Console Port.
+Change the port number from the default (443) to 31450.*
+
+![Change the Default Password & Username](https://imgur.com/IaubtgD.png)
 
 
 
