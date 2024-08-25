@@ -57,7 +57,7 @@ Path Network Integration
 
 *Pritunl Web Panel (Port 31450): This port is used to access the Pritunl web panel after changing its default port. By allowing traffic on TCP port 31450, you ensure that the web interface for managing your VPN server remains accessible while using a non-default, custom port for added security.*
 
-![Pritunl Web Panel (Port 31450): This port is used to access the Pritunl web panel after changing its default port. By allowing traffic on TCP port 31450, you ensure that the web interface for managing your VPN server remains accessible while using a non-default, custom port for added security.](https://imgur.com/dBdfBH3)
+![Pritunl Web Panel (Port 31450): This port is used to access the Pritunl web panel after changing its default port. By allowing traffic on TCP port 31450, you ensure that the web interface for managing your VPN server remains accessible while using a non-default, custom port for added security.](https://imgur.com/dBdfBH3.png)
 
 *Deny All Traffic: Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.*
 
