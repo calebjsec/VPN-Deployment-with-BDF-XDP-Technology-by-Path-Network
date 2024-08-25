@@ -92,6 +92,7 @@ sudo apt update && sudo apt -y full-upgrade
 ````bash
 sudo apt install gpg curl -y
 ````
+![Install Required Dependencies](https://imgur.com/IL8C1AC.png)
 
 ## 3: System Reboot (if required)
 
@@ -100,6 +101,7 @@ sudo apt install gpg curl -y
 ````
 [ -f /var/run/reboot-required ] && sudo reboot -f
 ````
+![System Reboot](https://imgur.com/YCe9hKk.png)
 
 ## 4. Add Pritunl and MongoDB Repositories
 
@@ -117,6 +119,7 @@ deb https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/6.0 multi
 ````
 EOF
 ````
+![Add Pritunl and MongoDB Repositories](https://imgur.com/CeIgcxs.png)
 
 *These commands add Pritunl and MongoDB repositories to your APT sources list, allowing you to install the latest versions of Pritunl and MongoDB directly from their respective sources. $(lsb_release -cs) dynamically inserts your Ubuntu version code name, ensuring compatibility.*
 
@@ -130,6 +133,8 @@ curl -fsSL https://www.mongodb.org/static/pgp/server-6.0.asc | sudo gpg --dearmo
 ````
 curl -fsSL https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pritunl.gpg
 ````
+![Update and Upgrade the System](https://imgur.com/wcrTh6o.png)
+
 *GPG keys are used to verify that the packages are signed by a trusted source and have not been tampered with. The --dearmor option converts the key to a binary format that APT can use.*
 
 ## 6. Install Pritunl and MongoDB
@@ -142,6 +147,7 @@ sudo apt update
 ````
 sudo apt --assume-yes install pritunl mongodb-org
 ````
+![Update and Upgrade the System](https://imgur.com/wcrTh6o.png)
 
 *The apt update command refreshes the package lists to include the newly added repositories. The --assume-yes option automatically confirms the installation, ensuring a smooth process.*
 
@@ -155,6 +161,7 @@ sudo systemctl start pritunl mongod
 ````
 sudo systemctl enable pritunl mongod
 ````
+![Update and Upgrade the System](https://imgur.com/wcrTh6o.png)
 
 ## Configuring Priunl
 
