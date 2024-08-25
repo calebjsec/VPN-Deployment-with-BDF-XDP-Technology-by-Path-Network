@@ -162,7 +162,7 @@ sudo systemctl start pritunl mongod
 ````
 sudo systemctl enable pritunl mongod
 ````
-![Update and Upgrade the System](https://imgur.com/wcrTh6o.png)
+![Start and Enable Pritunl and MongoDB Services](https://imgur.com/OI6WjNt.png)
 
 ## Pritunl Database Setup
 
