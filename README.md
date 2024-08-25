@@ -55,6 +55,10 @@ Path Network Integration
 
 ![OpenVPN UDP (Port 22000): Used for OpenVPN UDP traffic.](https://imgur.com/hxda5Bw.png)
 
+*Pritunl Web Panel (Port 31450): This port is used to access the Pritunl web panel after changing its default port. By allowing traffic on TCP port 31450, you ensure that the web interface for managing your VPN server remains accessible while using a non-default, custom port for added security.*
+
+![Pritunl Web Panel (Port 31450): This port is used to access the Pritunl web panel after changing its default port. By allowing traffic on TCP port 31450, you ensure that the web interface for managing your VPN server remains accessible while using a non-default, custom port for added security.](https://imgur.com/dBdfBH3)
+
 *Deny All Traffic: Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.*
 
 ![Deny All Traffic: Configure the firewall to block all traffic by default, allowing only traffic on the whitelisted ports and from the specified IP addresses.](https://imgur.com/deNxktg.png)
@@ -65,7 +69,7 @@ Path Network Integration
 
 *Firewall Rules*
 
-![Firewall Rules](https://imgur.com/MTqNUvK.png)
+![Firewall Rules](https://imgur.com/ErXd4k1)
 
 *Application Filter*
 
