@@ -335,7 +335,7 @@ Ping Cloudflare DNS: Open Command Prompt on your Windows machine and run the fol
 ```ping 1.1.1.1```
 
 ![Verify VPN Connection](https://imgur.com/YDQwuNf.png)
-![Verify VPN Connection](https://imgur.com/VZJSP7e.net)
+![Verify VPN Connection](https://imgur.com/VZJSP7e.png)
 
 
 
