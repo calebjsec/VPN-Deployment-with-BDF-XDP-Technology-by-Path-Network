@@ -203,7 +203,7 @@ sudo pritunl default-password
 
 *Use the default credentials provided:*
 
-*Username: pritunl
+*Username: pritunl*
 
 *Password: defaultpassword (or whatever password was provided).*
 
@@ -232,7 +232,7 @@ sudo pritunl default-password
 
 **Change the Default Web Console Port to 31450**
 
-*Look for the Web Console settings or a similar option related to server configuration.
+*Look for the Web Console settings or a similar option related to server configuration.*
 
 **Update the Port Setting**
 
