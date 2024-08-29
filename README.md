@@ -203,8 +203,9 @@ sudo pritunl default-password
 
 *Use the default credentials provided:*
 
-Username: pritunl
-Password: defaultpassword (or whatever password was provided)*
+*Username: pritunl
+
+*Password: defaultpassword (or whatever password was provided).*
 
 ![Log into the Pritunl Web Panel](https://imgur.com/urukpJB.png)
 
