@@ -215,19 +215,19 @@ Password: defaultpassword (or whatever password was provided)*
 
 **Change the Default Password & Username**
 
-*After logging in, navigate to the Settings section by clicking on your username or the settings icon.
+*After logging in, navigate to the Settings section by clicking on your username or the settings icon.*
 
 *Enter a new username.*
 
-*Enter a new, secure password. Ensure it follows NIST guidelines
+*Enter a new, secure password. Ensure it follows NIST guidelines.*
 
-Length: At least 12 characters
+*Length: At least 12 characters.*
 
-Complexity: Include a mix of upper and lower case letters, numbers, and special characters
+*Complexity: Include a mix of upper and lower case letters, numbers, and special characters.*
 
-Avoid: Common words or easily guessable patterns
+*Avoid: Common words or easily guessable patterns.*
 
-Example of a strong password: G!9aC7%kB*3vQ^Rz*
+*Example of a strong password: G!9aC7%kB*3vQ^Rz*
 
 **Change the Default Web Console Port to 31450**
 
@@ -345,6 +345,10 @@ Ping Cloudflare DNS: Open Command Prompt on your Windows machine and run the fol
 
 ![Verify VPN Connection](https://imgur.com/YDQwuNf.png)
 ![Verify VPN Connection](https://imgur.com/VZJSP7e.png)
+
+## Conclusion
+
+*This project provides a comprehensive guide to deploying a DDoS-protected VPN server using BDF/XDP technology by Path Network on a Linux Ubuntu 20.04 server. It details the process of integrating advanced networking technologies like BDF and XDP to fortify the server against DDoS attacks, ensuring secure and reliable VPN access. The step-by-step instructions cover essential tasks, including the installation and configuration of the Pritunl VPN panel, the implementation of robust firewall rules using FranTech Stallion, and the management of network traffic with enhanced security measures. This setup demonstrates best practices for VPN deployment in high-security environments, offering strong protection and reliability.* 
 
 
 
