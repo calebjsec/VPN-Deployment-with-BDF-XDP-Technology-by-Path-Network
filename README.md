@@ -42,8 +42,7 @@ Path Network Integration
 
 ## Firewall Configuration
 
-**Whitelist the following ports utilizing the FranTech Stallion Panel**
-
+*Whitelist the following ports utilizing the FranTech Stallion Panel.*
 *SSH (Port 22): Used for secure remote access to the server.*
 
 ![SSH (Port 22): Used for secure remote access to the server.](https://imgur.com/Nt6kwoF.png)
@@ -72,11 +71,11 @@ Path Network Integration
 
 ![Application Filter: Apply an OpenVPN UDP filter to Port 22000 to ensure only legitimate VPN traffic is allowed.](https://imgur.com/njovjwT.png)
 
-*Firewall Rules*
+*Firewall Rules.*
 
 ![Firewall Rules](https://imgur.com/ErXd4k1.png)
 
-*Application Filter*
+*Application Filter.*
 
 ![Application Filter](https://imgur.com/qcJ2M1i.png)
 
@@ -197,17 +196,20 @@ sudo pritunl setup-key
 sudo pritunl default-password
 ````
 ![Generate Default Password](https://imgur.com/RBXZJZM.png)
+
 ## 5. Log into the Pritunl Web Panel
 
-*Go to the Pritunl web panel in your browser at https://your-server-ip/.
-Use the default credentials provided:
+*Go to the Pritunl web panel in your browser at https://your-server-ip/.*
+
+*Use the default credentials provided:*
+
 Username: pritunl
 Password: defaultpassword (or whatever password was provided)*
+
 ![Log into the Pritunl Web Panel](https://imgur.com/urukpJB.png)
 
 ## 6. Change Default Username and Password
 
-**Log In to the Pritunl Web Console**
 *Open your web browser and navigate to the Pritunl web panel at https://<your-server-ip>*
 *Log in using the default credentials provided by the sudo pritunl default-password command.*
 
@@ -215,19 +217,26 @@ Password: defaultpassword (or whatever password was provided)*
 
 *After logging in, navigate to the Settings section by clicking on your username or the settings icon.
 
-*Enter a new username.
+*Enter a new username.*
+
 *Enter a new, secure password. Ensure it follows NIST guidelines
+
 Length: At least 12 characters
+
 Complexity: Include a mix of upper and lower case letters, numbers, and special characters
+
 Avoid: Common words or easily guessable patterns
+
 Example of a strong password: G!9aC7%kB*3vQ^Rz*
 
 **Change the Default Web Console Port to 31450**
 
 *Look for the Web Console settings or a similar option related to server configuration.
-Update the Port Setting
-Find the field labeled Web Console Port.
-Change the port number from the default (443) to 31450.*
+
+**Update the Port Setting**
+
+*Find the field labeled Web Console Port.*
+*Change the port number from the default (443) to 31450.*
 
 ![Change the Default Password & Username](https://imgur.com/IaubtgD.png)
 
