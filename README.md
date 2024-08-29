@@ -301,4 +301,42 @@ Change the port number from the default (443) to 31450.*
 
 ![Start VPN Server](https://imgur.com/jgTmTTd.png)
 
+## Connect Using OpenVPN Client
+
+# 1. Download the VPN Configuration File
+
+*Retrieve the .ovpn configuration file from the Pritunl web panel.*
+
+![Retrieve the .ovpn](https://imgur.com/SjXHds2.png)
+
+# 2. Download and Install OpenVPN Connect V3
+*Visit the [OpenVPN](https://openvpn.net/client/client-connect-vpn-for-windows/) official website to download the latest version of OpenVPN Connect V3.*
+*Install the application on your Windows machine by following the on-screen instructions.*
+
+# 3. Import the Configuration File
+
+*In the OpenVPN Connect interface, click on the Import Profile option.
+Choose the File tab and then click on Browse.
+Navigate to the location where you saved the .ovpn file and select it.
+Click Open to import the file.*
+
+![Import the Configuration File](https://imgur.com/5zORUDG.png)
+
+# 4. Connect to the VPN
+
+*Once imported, you will see the profile listed in OpenVPN Connect.
+Click on Connect to establish a VPN connection using the imported profile.*
+
+![Connnect to the VPN](https://imgur.com/dcvWnIg.png)
+
+# 5. Verify VPN Connection
+Once connected to the VPN, go to [checkhost](https://check-host.net/) to confirm that your IP address matches the one assigned by the VPN.
+Ping Cloudflare DNS: Open Command Prompt on your Windows machine and run the following command:
+```ping 1.1.1.1```
+
+![Verify VPN Connection](https://imgur.com/YDQwuNf.png)
+![Verify VPN Connection](https://imgur.com/VZJSP7e.net)
+
+
+
 
