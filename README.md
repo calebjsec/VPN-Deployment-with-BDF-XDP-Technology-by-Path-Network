@@ -16,7 +16,7 @@ This project demonstrates how to deploy a DDoS-protected VPN server utilizing eB
 - [Conclusion](#conclusion)
 - [Additional Documentation](#additional-documentation)
 
-## Introduction to BDF/XDP Technology
+## Introduction to eBPF/XDP Technology
 
 Overview of eBPF/XDP
 eBPF/XDP (Extended Berkeley Packet Filter/eXpress Data Path are advanced networking technologies that allow for high-performance packet processing at the kernel level. XDP, in particular, enables the server to handle and filter network packets before they reach the traditional networking stack, providing an efficient mechanism to mitigate DDoS attacks and reduce server load.
