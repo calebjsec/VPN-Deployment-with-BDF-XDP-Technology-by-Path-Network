@@ -1,9 +1,9 @@
-# VPN-Deployment-with-BDF-XDP-Technology-by-Path-Network
+# VPN-Deployment-with-eBPF-XDP-Technology-by-Path-Network
 
-This project demonstrates how to deploy a DDoS-protected VPN server utilizing BDF/XDP Technology by Path Network on a Linux Ubuntu 20.04 server. The setup includes installing the Pritunl panel, configuring robust DDoS protection using FranTech Stallion, and establishing essential firewall rules to secure network communications.
+This project demonstrates how to deploy a DDoS-protected VPN server utilizing eBPF/XDP Technology by Path Network on a Linux Ubuntu 20.04 server. The setup includes installing the Pritunl panel, configuring robust DDoS protection using FranTech Stallion, and establishing essential firewall rules to secure network communications.
 
 ## Table of Contents
-- [Introduction to BDF/XDP Technology](#Introduction-to-BDF/XDP-Technology)
+- [Introduction to eBPF/XDP Technology](#Introduction-to-eBPF/XDP-Technology)
 - [Prerequisites](#prerequisites)
 - [Firewall Configuration](#Firewall-Configuration)
 - [Pritunl Installation Steps](#Pritunl-Installation-Steps)
@@ -18,11 +18,11 @@ This project demonstrates how to deploy a DDoS-protected VPN server utilizing BD
 
 ## Introduction to BDF/XDP Technology
 
-Overview of BDF/XDP
-BDF (Berkeley Packet Filter) and XDP (eXpress Data Path) are advanced networking technologies that allow for high-performance packet processing at the kernel level. XDP, in particular, enables the server to handle and filter network packets before they reach the traditional networking stack, providing an efficient mechanism to mitigate DDoS attacks and reduce server load.
+Overview of eBPF/XDP
+eBPF/XDP (Extended Berkeley Packet Filter/eXpress Data Path are advanced networking technologies that allow for high-performance packet processing at the kernel level. XDP, in particular, enables the server to handle and filter network packets before they reach the traditional networking stack, providing an efficient mechanism to mitigate DDoS attacks and reduce server load.
 
 Path Network Integration
-[Path Network's](https://path.net) BDF/XDP technology integrates directly into the Linux kernel, enhancing the server's ability to process and filter incoming network traffic with minimal latency. Path Network’s technology is deployed in this project to provide robust DDoS protection for the VPN server, ensuring that malicious traffic is effectively filtered out.
+[Path Network's](https://path.net) eBPF/XDP technology integrates directly into the Linux kernel, enhancing the server's ability to process and filter incoming network traffic with minimal latency. Path Network’s technology is deployed in this project to provide robust DDoS protection for the VPN server, ensuring that malicious traffic is effectively filtered out.
 
 ## Prerequisites
 
