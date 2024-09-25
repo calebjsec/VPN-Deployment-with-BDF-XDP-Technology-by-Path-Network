@@ -3,7 +3,7 @@
 This project demonstrates how to deploy a DDoS-protected VPN server utilizing eBPF/XDP Technology by Path Network on a Linux Ubuntu 20.04 server. The setup includes installing the Pritunl panel, configuring robust DDoS protection using FranTech Stallion, and establishing essential firewall rules to secure network communications.
 
 ## Table of Contents
-- [Introduction to eBPF/XDP Technology](#Introduction-to-eBPF/XDP-Technology)
+- [Introduction to eBPF/XDP Technology](#introduction-to-ebpfxdp-technology)
 - [Prerequisites](#prerequisites)
 - [Firewall Configuration](#Firewall-Configuration)
 - [Pritunl Installation Steps](#Pritunl-Installation-Steps)
