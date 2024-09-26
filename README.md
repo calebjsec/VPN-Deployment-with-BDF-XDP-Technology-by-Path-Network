@@ -20,7 +20,6 @@ This project demonstrates how to deploy a DDoS-protected VPN server utilizing eB
 
 eBPF/XDP (Extended Berkeley Packet Filter/eXpress Data Path are advanced networking technologies that allow for high-performance packet processing at the kernel level. XDP, in particular, enables the server to handle and filter network packets before they reach the traditional networking stack, providing an efficient mechanism to mitigate DDoS attacks and reduce server load.
 
-Path Network Integration
 [Path Network's](https://path.net) eBPF/XDP technology integrates directly into the Linux kernel, enhancing the server's ability to process and filter incoming network traffic with minimal latency. Path Network’s technology is deployed in this project to provide robust DDoS protection for the VPN server, ensuring that malicious traffic is effectively filtered out.
 
 ## Prerequisites
